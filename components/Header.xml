@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component
+    name="Header"
+    extends="Group">
+
+    <script type="text/brightscript" uri="Header.brs" />
+
+    <children>
+
+        <Rectangle
+            id="headerBackground"
+            width="1280"
+            height="100"
+            color="0x18232FFF" />
+
+        <Label
+            id="title"
+            translation="[40,20]"
+            width="700"
+            height="45"
+            text="SISTEMA DE CHECADOR"
+            color="0xFFFFFFFF"
+            font="font:LargeBoldSystemFont" />
+
+        <Label
+            id="dateLabel"
+            translation="[900,20]"
+            width="330"
+            height="30"
+            text=""
+            horizAlign="right"
+            color="0xFFFFFFFF"
+            font="font:MediumSystemFont" />
+
+        <Label
+            id="timeLabel"
+            translation="[900,55]"
+            width="330"
+            height="30"
+            text=""
+            horizAlign="right"
+            color="0xFFFFFFFF"
+            font="font:MediumBoldSystemFont" />
+
+    </children>
+
+</component>

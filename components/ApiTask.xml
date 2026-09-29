@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component
+    name="ApiTask"
+    extends="Task">
+
+    <interface>
+
+        <field
+            id="baseUrl"
+            type="string"
+            value="http://192.168.1.71:3000/api/roku"
+            alwaysNotify="true" />
+
+        <field
+            id="endpoint"
+            type="string"
+            value=""
+            alwaysNotify="true" />
+
+        <field
+            id="result"
+            type="assocarray"
+            alwaysNotify="true" />
+
+        <field
+            id="error"
+            type="string"
+            value=""
+            alwaysNotify="true" />
+
+    </interface>
+
+    <script
+        type="text/brightscript"
+        uri="ApiTask.brs" />
+
+</component>

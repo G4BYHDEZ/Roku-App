@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component
+    name="RetardosScreen"
+    extends="Group">
+
+    <script type="text/brightscript" uri="RetardoScreen.brs" />
+
+    <children>
+
+        <Label
+            id="title"
+            translation="[40,130]"
+            width="1200"
+            height="50"
+            text="RETARDOS DEL DÍA"
+            color="0xFFFFFFFF"
+            font="font:LargeBoldSystemFont" />
+
+        <Label
+            id="counter"
+            translation="[40,185]"
+            width="500"
+            height="40"
+            text="Cargando..."
+            color="0xCCCCCCFF"
+            font="font:MediumSystemFont" />
+
+        <Rectangle
+            translation="[40,240]"
+            width="1200"
+            height="55"
+            color="0x253545FF" />
+
+        <Label
+            translation="[60,252]"
+            width="150"
+            height="30"
+            text="EMPLEADO"
+            color="0xFFFFFFFF"
+            font="font:SmallBoldSystemFont" />
+
+        <Label
+            translation="[230,252]"
+            width="350"
+            height="30"
+            text="NOMBRE"
+            color="0xFFFFFFFF"
+            font="font:SmallBoldSystemFont" />
+
+        <Label
+            translation="[600,252]"
+            width="280"
+            height="30"
+            text="DEPARTAMENTO"
+            color="0xFFFFFFFF"
+            font="font:SmallBoldSystemFont" />
+
+        <Label
+            translation="[900,252]"
+            width="150"
+            height="30"
+            text="HORA"
+            color="0xFFFFFFFF"
+            font="font:SmallBoldSystemFont" />
+
+        <Label
+            translation="[1060,252]"
+            width="150"
+            height="30"
+            text="ESTADO"
+            color="0xFFFFFFFF"
+            font="font:SmallBoldSystemFont" />
+
+        <Group
+            id="rows"
+            translation="[40,300]" />
+
+        <Label
+            id="message"
+            translation="[40,350]"
+            width="1200"
+            height="60"
+            text=""
+            color="0xFFFFFFFF"
+            font="font:MediumSystemFont" />
+
+        <Label
+            id="lastUpdate"
+            translation="[40,670]"
+            width="600"
+            height="30"
+            text=""
+            color="0x999999FF"
+            font="font:SmallSystemFont" />
+
+        <ApiTask
+            id="apiTask" />
+
+    </children>
+
+</component>

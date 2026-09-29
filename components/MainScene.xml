@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component
+    name="MainScene"
+    extends="Scene">
+
+    <script type="text/brightscript" uri="MainScene.brs" />
+
+    <interface>
+
+        <field
+            id="screen"
+            type="string"
+            value="retardos"
+            alwaysNotify="true" />
+
+    </interface>
+
+    <children>
+
+        <Rectangle
+            id="background"
+            width="1280"
+            height="720"
+            color="0x101820FF" />
+
+        <Header
+            id="header" />
+
+        <RetardosScreen
+            id="retardosScreen" />
+
+        <ChecadasScreen
+            id="checadasScreen"
+            visible="false" />
+
+    </children>
+
+</component>

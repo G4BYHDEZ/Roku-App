@@ -1,0 +1,5 @@
+api/node_modules/
+api/.env
+api/.env.*
+!api/.env.example
+channel.zip
